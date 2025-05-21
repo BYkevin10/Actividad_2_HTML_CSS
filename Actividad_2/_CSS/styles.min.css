@@ -1,0 +1,51 @@
+/* Estilos generales */
+body{font-family:Arial,sans-serif;font-size:16px;color:#222;background-color:#e6f2ff;margin:0;padding:0;text-align:justify}
+
+/* Encabezados */
+h1,h2,h3{color:#004080;text-align:center}
+
+/* Textos especiales */
+strong,b{color:#005599}
+em,i{color:#006699}
+mark{background-color:#cce6ff;color:black}
+small{font-size:0.8em;color:#555}
+del{color:gray;text-decoration:line-through}
+ins{text-decoration:underline;color:#008b8b}
+sub,sup{font-size:0.8em;vertical-align:baseline}
+
+/* Contenedores con fondo azul claro */
+header{background-color:#d0e7ff;border-radius:10px;box-shadow:0 2px 4px rgba(0,0,0,0.1);padding:15px;margin:15px}
+nav{background-color:#c2e0ff;border-radius:10px;box-shadow:0 2px 4px rgba(0,0,0,0.1);padding:10px;margin:15px}
+main{background-color:#e6f0ff;border-radius:10px;box-shadow:0 2px 4px rgba(0,0,0,0.1);padding:10px;margin:15px}
+section{background-color:#f0f8ff;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,0.05);padding:10px;margin:15px}
+footer{background-color:#d9efff;text-align:center;font-size:0.9em;color:#444;border-radius:10px;box-shadow:0 2px 4px rgba(0,0,0,0.1);margin:15px;padding:10px}
+
+/* Navegación */
+nav ul{list-style:none;padding:0;display:flex;justify-content:center;gap:10px;margin:0}
+nav a{text-decoration:none;color:#004080;font-weight:bold}
+nav a:hover{color:#001f33}
+
+/* Formularios */
+form input,form textarea{width:100%;padding:10px;margin-bottom:10px;border:1px solid #99ccff;border-radius:5px;font-family:Courier,monospace}
+
+/* Imágenes */
+img{max-width:100%;height:auto;border-radius:10px}
+
+/* Citas */
+blockquote{font-style:italic;background-color:#e0f0ff;padding:10px;border-left:5px solid #66a3ff;color:#333}
+q{color:#005577}
+
+/* Dirección y abbr */
+address{font-style:normal;color:#003366}
+abbr{border-bottom:1px dotted #000;cursor:help}
+
+/* Direcciones BDO */
+bdo{color:#336699}
+
+/* Estilo para <ins> y <del> más visual */
+del{color:#888;background-color:#fdd}
+ins{background-color:#d0fff0}
+
+/* Botón básico */
+button{background-color:#007acc;color:white;padding:10px 15px;border:none;border-radius:5px;cursor:pointer}
+button:hover{background-color:#005fa3}
